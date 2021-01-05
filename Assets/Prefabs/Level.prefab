@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7434221611565132426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3530232255616050904}
+  - component: {fileID: 7513824252246006688}
+  m_Layer: 0
+  m_Name: Level
+  m_TagString: Level
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3530232255616050904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7434221611565132426}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.22928056, y: 0.40889525, z: -8.987487}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7513824252246006688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7434221611565132426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a7757b86fbb5442ac795522ed3b37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelPrefab: {fileID: 7434221611565132426}
+  planetPrefab: {fileID: 3900142053914757773, guid: 07ffb3a691730f6479d785a72c741ac9, type: 3}
+  wormholePrefab: {fileID: 8537807213845102361, guid: cf8fb5ecd520dd640be9fb689fdc4bcd, type: 3}
+  wormholePlanetPrefab: {fileID: 9210211883533019146, guid: 0cf06eafddceb4f4386b12d2cc36042f, type: 3}
+  playerPrefab: {fileID: 7338232196872414966, guid: 0406ace250bcba841850e5bf1554d7e0, type: 3}
+  cameraPrefab: {fileID: 6578188750109893388, guid: e1ec1c6ef8f451f48b6964dbbef04c72, type: 3}
+  asteroidPrefab: {fileID: 3942185468328908554, guid: d334f873bf51a0345a0b0d4d516c0b7e, type: 3}
+  borderAsteroidPrefab: {fileID: 5162387171414496553, guid: eac61a0626ffd524391d758f9caf8d74, type: 3}
+  enemyPrefab: {fileID: 796900791476165282, guid: 23281efaa0d40474490bd44370d93efb, type: 3}
+  eventSystemPrefab: {fileID: 4729443954817763664, guid: 95be275623c6cd14c99f33c4fa11a424, type: 3}
+  gameManagerPrefab: {fileID: 840344839957031526, guid: c27b739c503d2924eb8aaac0e36eb91b, type: 3}
+  canvasPrefab: {fileID: 4396638405675615524, guid: 4bbdf1ddb122fd8438e56c9af9fd446f, type: 3}
+  inventoryPanelPrefab: {fileID: 6261438402450733386, guid: 1b51aad3a44190248a200745afbf3fbc, type: 3}
+  tooltipPrefab: {fileID: 7225173078202877650, guid: e0eaa5a260a0abb4e9553efd8a7d1235, type: 3}
+  PlanetDropArray:
+  - {fileID: 2724589315582384062, guid: f07ffd8e747b144bc9dadda9c1cbbf6f, type: 3}
+  - {fileID: 7743816720852889293, guid: a2cd45b8cd3644dd0821b0c565ac625d, type: 3}
+  - {fileID: 7898217048409722959, guid: 5c20d0df52cfd474eaef8db1ae59c3a9, type: 3}
+  - {fileID: 1248713526843787258, guid: 576a447e68b2749c7b47433838820fdf, type: 3}
+  EnemyDropArray:
+  - {fileID: 2724589315582384062, guid: f07ffd8e747b144bc9dadda9c1cbbf6f, type: 3}
+  - {fileID: 7743816720852889293, guid: a2cd45b8cd3644dd0821b0c565ac625d, type: 3}
+  - {fileID: 7898217048409722959, guid: 5c20d0df52cfd474eaef8db1ae59c3a9, type: 3}
+  - {fileID: 1248713526843787258, guid: 576a447e68b2749c7b47433838820fdf, type: 3}
+  Difficulty: 0
+  Radius: 0
+  gameManager: {fileID: 0}
+  username: 
+  playerData:
+    filename: 
+    level: 0
+    score: 0
+    items: 
+    itemsNumber: 
+    playerUpgrades:
+      healthLevel: 0
+      speedLevel: 0
+      damageLevel: 0
+      accelerationLevel: 0
+  filename: 
